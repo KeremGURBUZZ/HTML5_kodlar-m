@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form&Egzersiz</title>
+</head>
+<body>
+    <main>
+        <h1>Kendini Tanıt</h1>
+        <h2>Aşağdakı alanları doldurup formu gönder</h2>
+        <!--İsim/Soyisim-->
+        <label for="ad">İsim:</label>
+        <input id="ad" type="text" name="isim" placeholder="İsminizi giriniz"><br><br> <!--placeholder yalnızca text tipi inputlarda kullanılır-->
+
+        <label for="soyad">Soyad:</label>
+        <input id="soyad" type="text" name="soyad" placeholder="Soyadınızı giriniz"><br><br>
+        <!--Cinsiyet-->
+        <p>Cinsiyet:</p>
+        <input id="erkek" type="radio" name="cinsiyet" value="erkek" checked>
+        <label for="erkek">Erkek</label>
+        
+        <input id="kadın" type="radio" name="cinsiyet" value="kadın" checked>
+        <label for="kadın">Kadın</label><br><br>
+        <!--Hobiler-->
+        <h3>Hobilerinizi işaretleyiniz</h3>
+        <input id="kitap" type="checkbox" name="hobi" value="kitap">
+        <label for="kitap">Kitap</label>
+         
+        <input id="yuruyus" type="checkbox" name="hobi" value="yuruyus">
+        <label for="yuruyus">Yürüyüş</label>
+
+        <input id="yuzme" type="checkbox" name="hobi" value="yuzme">
+        <label for="yuzme">Yüzme</label><br><br>
+
+        <button type="submit">Gönder</button>
+    </main>
+</body>
+</html>
