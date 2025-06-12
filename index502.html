@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekrar</title>
+</head>
+<body>
+  <main>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+      <section>
+        <h1>Sitemize hoş geldiniz, kendinizi tanıtın.</h1>
+
+        <!-- İsim Soyisim -->
+        <label for="ad">İsim:</label>
+        <input id="ad" type="text" name="isim" placeholder="İsminizi giriniz"><br>
+        <label for="soyad">Soyad:</label>
+        <input id="soyad" type="text" name="soyad" placeholder="Soyadınızı giriniz"><br><br>
+
+        <!-- Cinsiyet -->
+        <p>Cinsiyetinizi belirtin</p>
+        <input id="erkek" type="radio" name="cinsiyet" value="erkek" checked>
+        <label for="erkek">Erkek</label><br>
+        <input id="kadın" type="radio" name="cinsiyet" value="kadın">
+        <label for="kadın">Kadın</label><br><br>
+
+        <!-- Hobiler -->
+        <h3>Hobilerinizi işaretleyin</h3>
+        <input id="kodyazma" type="checkbox" name="hobi" value="kodyazma">
+        <label for="kodyazma">Kod yazmak</label>
+        <input id="videoizleme" type="checkbox" name="hobi" value="videoizleme">
+        <label for="videoizleme">Video izlemek</label>
+        <input id="gezme" type="checkbox" name="hobi" value="gezme">
+        <label for="gezme">Gezmek</label>
+        <input id="yuzme" type="checkbox" name="hobi" value="yuzme">
+        <label for="yuzme">Yüzme</label><br><br>
+
+        <!-- Tanıtım -->
+        <label for="mesaj">Kendinizi tanıtan kısa bir mesaj yazınız:</label><br>
+        <textarea name="tanıtım" id="mesaj" placeholder="Kendinizi birkaç cümleyle tanıtınız."></textarea><br><br>
+
+        <button type="submit">Gönder</button>
+      </section>
+    </form>
+  </main>
+</body>
+</html>
